@@ -1,0 +1,133 @@
+body{
+    color: rgb(0, 0, 0);
+    background-image: linear-gradient(45deg,#8a4d8b,#fa5b7d,#2B8FCC);
+}
+
+#circle{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    background-color: coral;
+    border-radius: 50%;
+    margin: 50px;
+    margin-top: -10px;
+}
+
+#circle1{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    background-color: rgb(171, 110, 206);
+    border-radius: 50%;
+    margin-left: 800px;
+    margin-top: 300px;
+}
+
+#circle2{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: rgb(252, 175, 125);
+    border-radius: 50%;
+    margin-left: 850px;
+    margin-top: -90px;
+}
+
+#maindiv{
+    position: relative;
+    width: 600px;
+    margin: 0 auto;
+    border-color: #956996;
+    border-style:solid;
+    border-width: 1px;
+    margin-top: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(2.5px);
+    border-radius: 10px;
+    box-shadow: 0 8px 32px 0 rgba(40, 40, 43, 0.37);
+}
+
+
+.addTask{
+    width: auto;
+    display: flex;
+    padding: 10px 0;
+}
+
+.addTask{
+    margin: 5px;
+}
+.addTask>input[type="text"]{
+    width: 80%;
+    color: rgb(228, 226, 226);
+    border: none;
+    border-bottom:2px solid #9a659c;
+    background:none;
+    padding:10px;
+    font-size: 22px;
+    outline: none;
+    margin-left: 3px;
+}
+
+::placeholder {
+    color: rgb(252, 181, 181);
+    opacity: 1; 
+    text-align: center;
+  }
+  
+.addTask button{
+width: 150px;
+margin: 0 10px;
+background: rgb(179, 62, 143);
+color: rgb(190, 188, 188);
+border-radius: 20px;
+text-transform: uppercase;
+border: none;
+font-size: 20px;
+cursor: pointer;
+}
+
+h3{
+    text-align: center;
+}
+
+#cButton, #dButton{
+    margin-left: 150px;
+    border-radius: 30px;
+    border: none;
+    background-color: transparent;
+    color: #06396C;
+    font-size: 15px;
+}
+
+#cButton:hover, #dButton:hover{
+    background-color: #06396C;
+    color: #ffffff;
+}
+
+#tasks{
+    margin: 5px 5px;
+    border-radius: 5px;
+    background: rgba(94, 243, 171, 0.5);
+}
+
+#CB{
+    margin: 5px 5px;
+    border-radius: 5px;
+    background-color: rgb(149, 123, 184);
+}
+
+input{
+    margin: 5px 5px;
+}
+
+#CN{
+    position: -webkit-sticky;
+    position: sticky;
+    float: right;
+    line-height: 9px;
+    font-size: 15px;
+    margin-right: 30px;
+    color: rgb(26, 25, 25);
+    padding-top: 50px;
+}
